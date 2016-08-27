@@ -27,7 +27,7 @@ var trivia =[
 	answer: "slingshot"
 },
 {
-	question: "What is Bartolomeo's power?",
+	question: "What is Bartolomeo's devil fruit ability?",
 	answer: "barrier"
 }
 ]
