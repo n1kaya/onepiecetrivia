@@ -1,0 +1,58 @@
+@font-face {
+   font-family: 'onepiece';
+   src: url('../font/opfont.eot');
+   src: url('../font/opfont.woff') format('woff'),
+   		url('../font/opfont.ttf') format('truetype');
+}
+
+body{
+	text-align: center;
+	background-color: #5B4B49;
+	background-image: url("../img/op.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	padding-bottom: 60px;
+	font-family: 'onepiece', sans-serif;
+}
+
+.questions {
+	font-size: 20px;
+}
+
+.title {
+	text-align:center;
+	font-size:60px;
+}
+
+.form-control {
+	font-family:  'Roboto', sans-serif;
+}
+
+h4.correct {
+	color: #24bd00;
+	font-size: 20px;
+}
+
+h4.incorrect {
+	color:#a72235;
+	font-size: 20px;
+}
+
+h1.correct {
+	color: #24bd00;
+}
+
+h1.incorrect {
+	color:#a72235;
+}
+
+h1.correct, 
+h1.incorrect {
+	position: relative;
+	top: 250px;
+	display: block;
+	margin: 0 auto;
+	width:300px;
+	font-size: 42px;
+}
